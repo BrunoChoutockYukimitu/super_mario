@@ -47,11 +47,121 @@ table {
 	border-spacing: 0;
 }
 
-.fundo{
-    background-image: url(imagens/fundo1.png);
-
+.body{
+    background-image: url('imagens/fundo1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
+.conteudo{
+	align-items: center;
+	height: 100vh;
+}
+.cabecalho{
+	padding-top:31px;
+	display: flex;
+	justify-content: space-between;
+}
+.menu{
+	display: flex;
+	padding-left: 76px;
+	font-family: "Poppins";
+font-weight: 300;
+font-size: 16px;
+color: white;
+width: 530px;
+height: 39px;
+justify-content: space-between;
+align-items: center;
+}
+
+.redes-sociais{
+	width: 136px;
+	height: 25px;
+	display: flex;
+	padding-right: 87px;
+	justify-content: space-between;
+	margin: 1px;
+	align-items: center;
+}
+
+.botoes{
+
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.botoes1{
+		text-decoration: none;
+		text-align: center;
+		font-family: "Poppins";
+		font-weight: 400;
+		font-size: 16px;
+		background-color: #AB2323;
+		border: none ;
+		padding-top: 15px;
+		padding-bottom: 14px;
+		padding-left: 38px;
+		padding-right: 38px;
+		margin-right: 9px;
+		text-decoration: none;
+		color: white;
+	   
+	
+}
 .texto{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-family: "Open Sans";
+ color: #FFFFFF;
+ font-weight: 400;
+ line-height: 24px;
+ font-size: 20px;
+ width: 474px;
+}
+
+.direita{
+	padding-right: 87px;
+	padding-top: 91px;
+}
+
+.esquerda{
+	padding-top: 73px;
+	padding-left: 73px;
+}
+
+.linha{
+	display: flex;
+	justify-content: space-between;
+}
+
+.botao2{
+	text-align: center;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 16px;
+	background-color: nome;
+	border: 1px solid green;
+	padding-top: 15pxx;
+	padding-bottom: 14px;
+	padding-left: 31px;
+	padding-right: 32px;
+	text-decoration: none;
+	color: white;
+}
+.home{
+color: white;
+text-decoration: none;	
+}
+
+.historia{
+	color: white;
+	text-decoration: none;
+}
+.wallpaper{
+	color: white;
+	text-decoration: none;
+}
+.trailer{
+color: white;
+text-decoration: none;
 }
