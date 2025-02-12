@@ -48,7 +48,7 @@ table {
 }
 
 .body{
-    background-image: url('imagens/fundo1.png');
+    background-image: url(fundo1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
