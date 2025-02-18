@@ -94,7 +94,7 @@ table {
 .botoes {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .botoes1 {
@@ -137,6 +137,8 @@ table {
 }
 
 .botao2 {
+	margin-right: 550px;
+	margin-bottom: 80px;
     text-align: center;
     font-family: 'Poppins';
     font-weight: 200;
@@ -151,7 +153,24 @@ table {
     color: white;
 }
 
-.home, .historia, .wallpaper, .trailer {
+.home{
     color: white;
     text-decoration: none;
+	margin-right: 10px;
+}
+
+.historia{
+	color: white;
+    text-decoration: none;
+	margin-right: 10px;
+}
+.wallpaper {
+	color: white;
+    text-decoration: none;
+	margin-right: 10px;
+}
+.trailer {
+	color: white;
+    text-decoration: none;
+	margin-right: 10px;
 }
