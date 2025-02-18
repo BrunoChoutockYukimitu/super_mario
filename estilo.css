@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,152 +12,146 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
+
+body {
+    background-image: url('imagens/fundo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-.body{
-    background-image: url(fundo1.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+
+.conteudo {
+    align-items: center;
+    height: 100vh;
 }
 
-.conteudo{
-	align-items: center;
-	height: 100vh;
-}
-.cabecalho{
-	padding-top:31px;
-	display: flex;
-	justify-content: space-between;
-}
-.menu{
-	display: flex;
-	padding-left: 76px;
-	font-family: "Poppins";
-font-weight: 300;
-font-size: 16px;
-color: white;
-width: 530px;
-height: 39px;
-justify-content: space-between;
-align-items: center;
+.cabecalho {
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.redes-sociais{
-	width: 136px;
-	height: 25px;
-	display: flex;
-	padding-right: 87px;
-	justify-content: space-between;
-	margin: 1px;
-	align-items: center;
+.menu {
+    display: flex;
+    padding-left: 76px;
+    font-family: 'Poppins', sans-serif; /* Corrigido */
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    width: 530px;
+    height: 39px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.botoes{
-
-	display: flex;
-	justify-content: space-between;
-	margin-top: 50px;
+.redes-sociais {
+    width: 136px;
+    height: 25px;
+    display: flex;
+    padding-right: 87px;
+    justify-content: space-between;
+    margin: 1px;
+    align-items: center;
 }
 
-.botoes1{
-		text-decoration: none;
-		text-align: center;
-		font-family: "Poppins";
-		font-weight: 400;
-		font-size: 16px;
-		background-color: #AB2323;
-		border: none ;
-		padding-top: 15px;
-		padding-bottom: 14px;
-		padding-left: 38px;
-		padding-right: 38px;
-		margin-right: 9px;
-		text-decoration: none;
-		color: white;
-	   
-	
-}
-.texto{
- font-family: "Open Sans";
- color: #FFFFFF;
- font-weight: 400;
- line-height: 24px;
- font-size: 20px;
- width: 474px;
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-.direita{
-	padding-right: 87px;
-	padding-top: 91px;
+.botoes1 {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-right: 9px;
+    color: white;
 }
 
-.esquerda{
-	padding-top: 73px;
-	padding-left: 73px;
+.texto {
+    font-family: 'Open Sans', sans-serif; /* Corrigido */
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+    width: 474px;
 }
 
-.linha{
-	display: flex;
-	justify-content: space-between;
+.direita {
+    padding-right: 87px;
+    padding-top: 91px;
 }
 
-.botao2{
-	text-align: center;
-	font-family: "Poppins";
-	font-weight: 400;
-	font-size: 16px;
-	background-color: nome;
-	border: 1px solid green;
-	padding-top: 15pxx;
-	padding-bottom: 14px;
-	padding-left: 31px;
-	padding-right: 32px;
-	text-decoration: none;
-	color: white;
-}
-.home{
-color: white;
-text-decoration: none;	
+.esquerda {
+    padding-top: 73px;
+    padding-left: 73px;
 }
 
-.historia{
-	color: white;
-	text-decoration: none;
+.linha {
+    display: flex;
+    justify-content: space-between;
 }
-.wallpaper{
-	color: white;
-	text-decoration: none;
+
+.botao2 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 16px;
+    background-color: red; /* Corrigido */
+    border: 1px solid green;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 31px;
+    padding-right: 32px;
+    text-decoration: none;
+    color: white;
 }
-.trailer{
-color: white;
-text-decoration: none;
+
+.home, .historia, .wallpaper, .trailer {
+    color: white;
+    text-decoration: none;
 }
